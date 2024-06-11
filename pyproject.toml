@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "3-coursework"
+version = "0.1.0"
+description = ""
+authors = ["Sveta Lalayan <lalayan-svetlana@list.ru>"]
+readme = "README.md"
+packages = [{include = "3"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+v = "^1"
+pytest-cov = "^5.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
